@@ -8,6 +8,7 @@ import seedRouter from './routes/seedRoutes.js';
 import cartRouter from './routes/cartRoutes.js';
 import ofertaRouter from './routes/OfertaRoutes.js';
 import produseCuPlasaRouter from './routes/produsCuPlasaRoutes.js';
+import produseTencuibilRouter from './routes/produsTencuibilRoutes.js';
 
 dotenv.config();
 
@@ -32,6 +33,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/produse', produsRouter);
 app.use('/api/produsecuplasa', produseCuPlasaRouter);
+app.use('/api/produsetencuibil', produseTencuibilRouter);
 app.use('/api/users', userRouter);
 app.use('/api/seed', seedRouter);
 app.use('/api/cart', cartRouter);
