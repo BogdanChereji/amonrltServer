@@ -152,6 +152,80 @@ const produsTencuibilSchema = new mongoose.Schema(
         pret: { type: Number },
       },
     },
+    D205: {
+      TocRulouTencuibil205pe90: {
+        pret: { type: Number },
+      },
+      SinaTencuibilaPanelService: {
+        pret: { type: Number },
+      },
+      PanelService205pe90: {
+        pret: { type: Number },
+      },
+      PolistirenExtrudat: {
+        pret: { type: Number },
+      },
+      AxOctogonal60: {
+        pret: { type: Number },
+      },
+      LamelaAluminiu: {
+        pret: { type: Number },
+      },
+      LamelaTerminala: {
+        pret: { type: Number },
+      },
+      GarnituraDeContact: {
+        pret: { type: Number },
+      },
+      GhidajAlu: {
+        pret: { type: Number },
+      },
+      PerieGhidaj: {
+        pret: { type: Number },
+      },
+      AgatatorCovor170: {
+        pret: { type: Number },
+      },
+      Inel60: {
+        pret: { type: Number },
+      },
+      CapacLateral205pe90: {
+        pret: { type: Number },
+      },
+      Fulie165: {
+        pret: { type: Number },
+      },
+      Dop60: {
+        pret: { type: Number },
+      },
+      Rulment: {
+        pret: { type: Number },
+      },
+      Snur: {
+        pret: { type: Number },
+      },
+      PalnieGhidaj: {
+        pret: { type: Number },
+      },
+      OrnamentPlastic: {
+        pret: { type: Number },
+      },
+      RolaPlastic: {
+        pret: { type: Number },
+      },
+      ArcCilindric: {
+        pret: { type: Number },
+      },
+      Automat: {
+        pret: { type: Number },
+      },
+      OpritorAscuns: {
+        pret: { type: Number },
+      },
+      Arriter: {
+        pret: { type: Number },
+      },
+    },
   },
   {
     timestamps: true,

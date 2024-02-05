@@ -164,6 +164,80 @@ produsTencuibilRouter.post(
           pret: req.body.D180.Arriter.pret,
         },
       },
+      D205: {
+        TocRulouTencuibil205pe90: {
+          pret: req.body.D205.TocRulouTencuibil205pe90.pret,
+        },
+        SinaTencuibilaPanelService: {
+          pret: req.body.D205.SinaTencuibilaPanelService.pret,
+        },
+        PanelService205pe90: {
+          pret: req.body.D205.PanelService205pe90.pret,
+        },
+        PolistirenExtrudat: {
+          pret: req.body.D205.PolistirenExtrudat.pret,
+        },
+        AxOctogonal60: {
+          pret: req.body.D205.AxOctogonal60.pret,
+        },
+        LamelaAluminiu: {
+          pret: req.body.D205.LamelaAluminiu.pret,
+        },
+        LamelaTerminala: {
+          pret: req.body.D205.LamelaTerminala.pret,
+        },
+        GarnituraDeContact: {
+          pret: req.body.D205.GarnituraDeContact.pret,
+        },
+        GhidajAlu: {
+          pret: req.body.D205.GhidajAlu.pret,
+        },
+        PerieGhidaj: {
+          pret: req.body.D205.PerieGhidaj.pret,
+        },
+        AgatatorCovor170: {
+          pret: req.body.D205.AgatatorCovor170.pret,
+        },
+        Inel60: {
+          pret: req.body.D205.Inel60.pret,
+        },
+        CapacLateral205pe90: {
+          pret: req.body.D205.CapacLateral205pe90.pret,
+        },
+        Fulie165: {
+          pret: req.body.D205.Fulie165.pret,
+        },
+        Dop60: {
+          pret: req.body.D205.Dop60.pret,
+        },
+        Rulment: {
+          pret: req.body.D205.Rulment.pret,
+        },
+        Snur: {
+          pret: req.body.D205.Snur.pret,
+        },
+        PalnieGhidaj: {
+          pret: req.body.D205.PalnieGhidaj.pret,
+        },
+        OrnamentPlastic: {
+          pret: req.body.D205.OrnamentPlastic.pret,
+        },
+        RolaPlastic: {
+          pret: req.body.D205.RolaPlastic.pret,
+        },
+        ArcCilindric: {
+          pret: req.body.D205.ArcCilindric.pret,
+        },
+        Automat: {
+          pret: req.body.D205.Automat.pret,
+        },
+        OpritorAscuns: {
+          pret: req.body.D205.OpritorAscuns.pret,
+        },
+        Arriter: {
+          pret: req.body.D205.Arriter.pret,
+        },
+      },
     });
     const produsTencuibil = await newProdusTencuibil.save();
     res.send({ message: 'Produsul a fost adăugat', produsTencuibil });
