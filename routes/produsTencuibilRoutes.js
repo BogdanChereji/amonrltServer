@@ -3,14 +3,14 @@ import expressAsyncHandler from 'express-async-handler';
 import ProdusTencuibil from '../models/produsTencuibilModel.js';
 import { isAuth, isAdmin } from '../utils.js';
 
-const produsTencuibilRouter = express.Router();
+const produseTencuibilRouter = express.Router();
 
-produsTencuibilRouter.get('/', async (req, res) => {
+produseTencuibilRouter.get('/', async (req, res) => {
   const produseTencuibil = await ProdusTencuibil.find();
   res.send(produseTencuibil);
 });
 
-produsTencuibilRouter.post(
+produseTencuibilRouter.post(
   '/',
   expressAsyncHandler(async (req, res) => {
     const newProdusTencuibil = new ProdusTencuibil({
@@ -244,7 +244,7 @@ produsTencuibilRouter.post(
   })
 );
 
-produsTencuibilRouter.get('/:id', async (req, res) => {
+produseTencuibilRouter.get('/:id', async (req, res) => {
   const produsTencuibil = await ProdusTencuibil.findById(req.params.id);
   if (produsTencuibil) {
     res.send(produsTencuibil);
@@ -253,7 +253,7 @@ produsTencuibilRouter.get('/:id', async (req, res) => {
   }
 });
 
-produsTencuibilRouter.delete(
+produseTencuibilRouter.delete(
   '/:id',
   isAuth,
   isAdmin,
@@ -268,4 +268,4 @@ produsTencuibilRouter.delete(
   })
 );
 
-export default produsTencuibilRouter;
+export default produseTencuibilRouter;

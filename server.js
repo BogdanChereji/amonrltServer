@@ -9,6 +9,9 @@ import cartRouter from './routes/cartRoutes.js';
 import ofertaRouter from './routes/OfertaRoutes.js';
 import produseCuPlasaRouter from './routes/produsCuPlasaRoutes.js';
 import produseTencuibilRouter from './routes/produsTencuibilRoutes.js';
+import produseTencuibilCuPlasaRouter from './routes/produseTencuibilCuPlasaRoutes.js';
+import produseSuprapusRouter from './routes/produsSuprapusRoutes.js';
+import produseSuprapusCuPlasaRouter from './routes/produsSuprapusCuPlasaRoutes.js';
 
 dotenv.config();
 
@@ -38,6 +41,9 @@ app.use('/api/users', userRouter);
 app.use('/api/seed', seedRouter);
 app.use('/api/cart', cartRouter);
 app.use('/api/oferte', ofertaRouter);
+app.use('/api/produsetencuibilcuplasa', produseTencuibilCuPlasaRouter);
+app.use('/api/produsesuprapus', produseSuprapusRouter);
+app.use('/api/produsesuprapusCuPlasa', produseSuprapusCuPlasaRouter);
 
 app.use((err, req, res, next) => {
   res.status(500).send({ message: err.message });
