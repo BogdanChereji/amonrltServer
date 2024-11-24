@@ -116,6 +116,106 @@ produseSuprapusCuPlasaRouter.post(
           pret: req.body.D245.SuplimentareAccesorii.pret,
         },
       },
+      D195S: {
+        SetCasetaSuprapus195: {
+          pret: req.body.D195S.SetCasetaSuprapus195.pret,
+        },
+        Izolatie195: {
+          pret: req.body.D195S.Izolatie195.pret,
+        },
+        ProfilAdaptor: {
+          pret: req.body.D195S.ProfilAdaptor.pret,
+        },
+        AxOctogonal40: {
+          pret: req.body.D195S.AxOctogonal40.pret,
+        },
+        LamelaAluminiu: {
+          pret: req.body.D195S.LamelaAluminiu.pret,
+        },
+        LamelaTerminala: {
+          pret: req.body.D195S.LamelaTerminala.pret,
+        },
+        GarnituraDeContact: {
+          pret: req.body.D195S.GarnituraDeContact.pret,
+        },
+        GhidajPVC: {
+          pret: req.body.D195S.GhidajPVC.pret,
+        },
+        PerieGhidaj: {
+          pret: req.body.D195S.PerieGhidaj.pret,
+        },
+        Inel40: {
+          pret: req.body.D195S.Inel40.pret,
+        },
+        SetAccesorii195: {
+          pret: req.body.D195S.SetAccesorii195.pret,
+        },
+        Banda: {
+          pret: req.body.D195S.Banda.pret,
+        },
+        Automat: {
+          pret: req.body.D195S.Automat.pret,
+        },
+        OpritorPVC: {
+          pret: req.body.D195S.OpritorPVC.pret,
+        },
+        Arriter: {
+          pret: req.body.D195S.Arriter.pret,
+        },
+        SuplimentareAccesorii: {
+          pret: req.body.D195S.SuplimentareAccesorii.pret,
+        },
+      },
+      D245S: {
+        SetCasetaSuprapus195: {
+          pret: req.body.D245S.SetCasetaSuprapus195.pret,
+        },
+        Izolatie195: {
+          pret: req.body.D245S.Izolatie195.pret,
+        },
+        ProfilAdaptor: {
+          pret: req.body.D245S.ProfilAdaptor.pret,
+        },
+        AxOctogonal40: {
+          pret: req.body.D245S.AxOctogonal40.pret,
+        },
+        LamelaAluminiu: {
+          pret: req.body.D245S.LamelaAluminiu.pret,
+        },
+        LamelaTerminala: {
+          pret: req.body.D245S.LamelaTerminala.pret,
+        },
+        FixMobilPlasaPeAx: {
+          pret: req.body.D245S.FixMobilPlasaPeAx.pret,
+        },
+        GhidajPVC: {
+          pret: req.body.D245S.GhidajPVC.pret,
+        },
+        PerieGhidaj: {
+          pret: req.body.D245S.PerieGhidaj.pret,
+        },
+        Inel40: {
+          pret: req.body.D245S.Inel40.pret,
+        },
+        SetAccesorii195: {
+          pret: req.body.D245S.SetAccesorii195.pret,
+        },
+        Banda: {
+          pret: req.body.D245S.Banda.pret,
+        },
+        Automat: {
+          pret: req.body.D245S.Automat.pret,
+        },
+        OpritorPVC: {
+          pret: req.body.D245S.OpritorPVC.pret,
+        },
+        Arriter: {
+          pret: req.body.D245S.Arriter.pret,
+        },
+        SuplimentareAccesorii: {
+          pret: req.body.D245S.SuplimentareAccesorii.pret,
+        },
+      },
     });
     const produsSuprapusCuPlasa = await newProdusSuprapusCuPlasa.save();
     res.send({ message: 'Produsul a fost adăugat', produsSuprapusCuPlasa });

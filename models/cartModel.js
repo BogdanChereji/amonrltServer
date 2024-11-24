@@ -14,6 +14,7 @@ const cartSchema = new mongoose.Schema(
     actionareMotor: { type: String },
     pret: { type: Number },
     adaos: { type: Number },
+    distantier: { type: Boolean, default: false },
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   },
   {

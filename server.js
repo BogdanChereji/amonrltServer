@@ -12,6 +12,13 @@ import produseTencuibilRouter from './routes/produsTencuibilRoutes.js';
 import produseTencuibilCuPlasaRouter from './routes/produseTencuibilCuPlasaRoutes.js';
 import produseSuprapusRouter from './routes/produsSuprapusRoutes.js';
 import produseSuprapusCuPlasaRouter from './routes/produsSuprapusCuPlasaRoutes.js';
+import produsePVCRouter from './routes/produsPVCRoutes.js';
+import produsePlasaCuBalamale17x25Router from './routes/produsPlasaCuBalamale17x25Routes.js';
+import produsePlasaCuCleme9x32Router from './routes/produsPlasaCuClema9x32Routes.js';
+import produsePlasaInGol31x11Router from './routes/produsPlasaInGol31x11Routes.js';
+import produsePlasaTipRulouRouter from './routes/produsPlasaTipRulouRoutes.js';
+import produseUsaCuPerieRouter from './routes/produsUsaCuPerieRoutes.js';
+import produseUsaMagneticaRouter from './routes/produsUsaMagneticaRoutes.js';
 
 dotenv.config();
 
@@ -44,6 +51,13 @@ app.use('/api/oferte', ofertaRouter);
 app.use('/api/produsetencuibilcuplasa', produseTencuibilCuPlasaRouter);
 app.use('/api/produsesuprapus', produseSuprapusRouter);
 app.use('/api/produsesuprapusCuPlasa', produseSuprapusCuPlasaRouter);
+app.use('/api/produsePVC', produsePVCRouter);
+app.use('/api/produsePlasaCuBalamale17x25', produsePlasaCuBalamale17x25Router);
+app.use('/api/produsePlasaCuClema9x32', produsePlasaCuCleme9x32Router);
+app.use('/api/produsePlasaInGol31x11', produsePlasaInGol31x11Router);
+app.use('/api/produsePlasaTipRulou', produsePlasaTipRulouRouter);
+app.use('/api/produseUsaCuPerie', produseUsaCuPerieRouter);
+app.use('/api/produseUsaMagnetica', produseUsaMagneticaRouter);
 
 app.use((err, req, res, next) => {
   res.status(500).send({ message: err.message });

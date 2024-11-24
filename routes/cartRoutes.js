@@ -29,6 +29,7 @@ cartRouter.post(
       actionareMotor: req.body.actionareMotor,
       pret: req.body.pret,
       adaos: req.body.adaos,
+      distantier: req.body.distantier,
       user: req.body.user || req.user._id,
     });
     const cart = await newCart.save();
@@ -70,6 +71,8 @@ cartRouter.post(
           tipMotor: product.tipMotor,
           actionareMotor: product.actionareMotor,
           pret: product.pret,
+          distantier: product.distantier,
+
           // Alte detalii despre produs, dacă există
         })),
         pret: req.body.pret, // Dacă vrei să adaugi și pretul total în oferta

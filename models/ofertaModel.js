@@ -17,6 +17,7 @@ const ofertaSchema = new mongoose.Schema(
         bandaSnur: { type: String },
         mentiuni: { type: String },
         tipMotor: { type: String },
+        distantier: { type: Boolean },
         actionareMotor: { type: String },
         pret: { type: Number },
         // Alte câmpuri ale produsului, dacă există

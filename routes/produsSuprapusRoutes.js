@@ -16,104 +16,54 @@ produseSuprapusRouter.post(
     const newProdusSuprapus = new ProdusSuprapus({
       Nume: req.body.Nume,
       NumeCuloare: req.body.NumeCuloare,
-      D195: {
+      D200: {
         SetCasetaSuprapus195: {
-          pret: req.body.D195.SetCasetaSuprapus195.pret,
+          pret: req.body.D200.SetCasetaSuprapus195.pret,
         },
         Izolatie195: {
-          pret: req.body.D195.Izolatie195.pret,
+          pret: req.body.D200.Izolatie195.pret,
         },
         ProfilAdaptor: {
-          pret: req.body.D195.ProfilAdaptor.pret,
+          pret: req.body.D200.ProfilAdaptor.pret,
         },
         AxOctogonal40: {
-          pret: req.body.D195.AxOctogonal40.pret,
+          pret: req.body.D200.AxOctogonal40.pret,
         },
         LamelaAluminiu: {
-          pret: req.body.D195.LamelaAluminiu.pret,
+          pret: req.body.D200.LamelaAluminiu.pret,
         },
         LamelaTerminala: {
-          pret: req.body.D195.LamelaTerminala.pret,
+          pret: req.body.D200.LamelaTerminala.pret,
         },
         GarnituraDeContact: {
-          pret: req.body.D195.GarnituraDeContact.pret,
+          pret: req.body.D200.GarnituraDeContact.pret,
         },
         GhidajPVC: {
-          pret: req.body.D195.GhidajPVC.pret,
+          pret: req.body.D200.GhidajPVC.pret,
         },
         PerieGhidaj: {
-          pret: req.body.D195.PerieGhidaj.pret,
+          pret: req.body.D200.PerieGhidaj.pret,
         },
         Inel40: {
-          pret: req.body.D195.Inel40.pret,
+          pret: req.body.D200.Inel40.pret,
         },
         SetAccesorii195: {
-          pret: req.body.D195.SetAccesorii195.pret,
+          pret: req.body.D200.SetAccesorii195.pret,
         },
         Banda: {
-          pret: req.body.D195.Banda.pret,
+          pret: req.body.D200.Banda.pret,
         },
         Automat: {
-          pret: req.body.D195.Automat.pret,
+          pret: req.body.D200.Automat.pret,
         },
         OpritorPVC: {
-          pret: req.body.D195.OpritorPVC.pret,
+          pret: req.body.D200.OpritorPVC.pret,
         },
         Arriter: {
-          pret: req.body.D195.Arriter.pret,
+          pret: req.body.D200.Arriter.pret,
         },
         SuplimentareAccesorii: {
-          pret: req.body.D195.SuplimentareAccesorii.pret,
-        },
-      },
-      D245: {
-        SetCasetaSuprapus195: {
-          pret: req.body.D245.SetCasetaSuprapus195.pret,
-        },
-        Izolatie195: {
-          pret: req.body.D245.Izolatie195.pret,
-        },
-        ProfilAdaptor: {
-          pret: req.body.D245.ProfilAdaptor.pret,
-        },
-        AxOctogonal40: {
-          pret: req.body.D245.AxOctogonal40.pret,
-        },
-        LamelaAluminiu: {
-          pret: req.body.D245.LamelaAluminiu.pret,
-        },
-        LamelaTerminala: {
-          pret: req.body.D245.LamelaTerminala.pret,
-        },
-        FixMobilPlasaPeAx: {
-          pret: req.body.D245.FixMobilPlasaPeAx.pret,
-        },
-        GhidajPVC: {
-          pret: req.body.D245.GhidajPVC.pret,
-        },
-        PerieGhidaj: {
-          pret: req.body.D245.PerieGhidaj.pret,
-        },
-        Inel40: {
-          pret: req.body.D245.Inel40.pret,
-        },
-        SetAccesorii195: {
-          pret: req.body.D245.SetAccesorii195.pret,
-        },
-        Banda: {
-          pret: req.body.D245.Banda.pret,
-        },
-        Automat: {
-          pret: req.body.D245.Automat.pret,
-        },
-        OpritorPVC: {
-          pret: req.body.D245.OpritorPVC.pret,
-        },
-        Arriter: {
-          pret: req.body.D245.Arriter.pret,
-        },
-        SuplimentareAccesorii: {
-          pret: req.body.D245.SuplimentareAccesorii.pret,
+          pret: req.body.D200.SuplimentareAccesorii.pret,
         },
       },
     });
